@@ -9,6 +9,11 @@ const routes = [
         name: 'Home',
         component: () => import('../modules/home/index')
     },
+    {
+        path: '/matrix',
+        name: 'Matrix',
+        component: () => import('../modules/matrix/index')
+    },
 ]
 
 const router = new VueRouter({
